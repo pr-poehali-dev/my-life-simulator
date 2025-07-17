@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'pixel': ['Orbitron', 'monospace'],
+				'retro': ['Saira Condensed', 'sans-serif']
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +65,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'retro-orange': '#FF6B35',
+				'retro-mint': '#4ECDC4',
+				'retro-navy': '#455B7D',
+				'retro-golden': '#F3C12F',
+				'retro-green': '#4ECDC4'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
